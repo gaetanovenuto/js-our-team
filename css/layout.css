@@ -8,7 +8,36 @@
     MAIN SECTION
 ****************************************************/
 
+#myContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.card {
+    width: calc((100% / 3) - 10px);
+    height: 300px;
+    margin: 5px;
+}
+
+.member-img img {
+    max-height: 270px;
+    width: 100%;
+}
+
+.member-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.member-role {
+    font-size: 16px;
+}
 
 /*************************************************** 
     FOOTER SECTION
