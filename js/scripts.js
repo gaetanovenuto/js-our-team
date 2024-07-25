@@ -32,24 +32,6 @@ let ourTeam = [
     
 ]
 
-// const teamCard = document.getElementById('card');
-// const memberImg = document.getElementById('member-img');
-// const memberName = document.getElementById('member-name');
-// const memberRole = document.getElementById('member-role');
-
-
-// for(i = 0; i < ourTeam.length; i++) {
-
-//     console.log(ourTeam[i]);
-
-//     let ourTeamMemberName = ourTeam[i].name;
-//     let ourTeamMemberRole = ourTeam[i].role;
-//     let ourTeamMemberImage = ourTeam[i].image;
-
-//     teamCard.innerHTML += `${ourTeamMemberName} ${ourTeamMemberRole} ${ourTeamMemberImage}`
-       
-// }
-
 const myContainer = document.getElementById('myContainer');
 
 for (i = 0; i < ourTeam.length; i++) {
